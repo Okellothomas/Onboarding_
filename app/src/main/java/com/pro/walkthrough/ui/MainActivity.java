@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 onBoarding = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
                 boolean isFirstTime = onBoarding.getBoolean("fistTime", true);
 
+
                 if (isFirstTime){
                     // edit the shared preference.
                     SharedPreferences.Editor editor = onBoarding.edit();
