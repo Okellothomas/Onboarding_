@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Walkthrough"
         tools:targetApi="31">
         <activity
+            android:name=".ui.Dashboard"
+            android:exported="false" />
+        <activity
             android:name=".ui.MainActivity"
             android:exported="true"
             android:theme="@style/NoActiontheme">
@@ -26,9 +29,7 @@
         <activity
             android:name=".ui.Onboarding"
             android:exported="false"
-            android:theme="@style/NoActiontheme">
-        </activity>
-
+            android:theme="@style/NoActiontheme"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
